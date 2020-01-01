@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
+}
+
+.part-1{
+    
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    
+    z-index: 1;
+    padding: 1.5rem 0;
+
+}
+.other-color{
+    color: teal;
+    padding-left:0.75rem;
+}
+.list-01{
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-01 a{
+    color: white;
+    padding: 0.75rem;
+    text-decoration: none;
+    
+    
+}
+
+.list-01  li {
+    list-style: none;
+    
+}
+
+.list-01 a:hover{
+    background-color: teal;
+    border-radius: 0.5rem;
+    
+}
+
+/* Part 2*/
+
+.part-2{
+    background: url(..//img/showcase.jpg) ;
+    height: 100vh;
+    
+}
+
+.part2-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+
+    color: white;
+    text-decoration: none;
+    
+    
+}
+
+.part2-text a{
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    background-color: teal;
+    border-radius: 0.8rem;
+    
+    
+    
+
+}
+
+.part2-text p{
+    max-width: 80rem;
+    padding: 1rem;
+}
+
+.part2-text h1{
+    font-size: 4rem;
+    
+}
+
+
+
+.part-3-text{
+    text-align: center;
+    padding: 2rem;
+}
+
+.p3t{
+    color: teal;
+}
+
+.what-text{
+    display: flex;
+    
+    text-align: center;
+    align-content: center;
+    
+}
+
+i{
+    background: teal;
+    color: white;
+    border-radius: 50%;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.what-text h3{
+    margin: 0.5rem;
+}
+
+.pt3-1{
+    margin: 1rem;
+
+}
+
+.pt3-2{
+    margin: 1rem;
+    
+}
+
+.pt3-3{
+    margin: 1rem;
+    
+}
+.who-txt00{
+    margin: 0.7rem;
+}
+
+.who-txt01{
+    margin: 0.5rem;
+}
+
+.whoweare {
+    display: flex;
+    
+    
+}
+
+.whoweare div{
+    flex: 1;
+}
+
+.who-img1-1{
+    background: url(..//img/people.jpg) no-repeat center center/cover;
+    margin-top: 2rem;
+}
+
+.another-content {
+    margin-top: 2rem;
+    background-color: #333;
+    color: white;
+    padding: 5rem;
+    
+
+}
+.another-content ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.clients-p4  .clients-img{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container-1 img{
+    
+    display: block;
+    margin: auto;
+    width: 60%;
+    
+    
+   
+
+}
+
+.clients-txt{
+    
+    text-align: center;
+    margin: 2rem;
+}
+
+
+.clients-txt-sp{
+
+color: teal;
+}
+
+.contact-p5{
+    background-color: teal;
+    color: white;
+    padding: 1rem;
+    margin-top: 1rem;
+   
+    
+    
+}
+
+.contact-form1{
+    margin: 1rem;
+}
+
+.contact-form1 h1{
+    margin: 1rem;
+}
+
+
+
+.contact-form1{
+    text-align: center;
+}
+
+.action-pg div {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.web-foot{
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+
+}
